@@ -1,4 +1,4 @@
-import styles from '../../styles/modalpage.module.css'
+import styles from '../../styles/ModalPage.module.css'
 export default function ModalPage({modal, setModal}) {
 
     return (

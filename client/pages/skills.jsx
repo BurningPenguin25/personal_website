@@ -1,7 +1,6 @@
 import Header from './modules/Header'
 import styles from '../styles/Skill.module.css'
 import Footer from "./modules/Footer";
-import MainContent from "./modules/MainContent"
 import SkillCart from "./modules/SkillCart"
 
 
