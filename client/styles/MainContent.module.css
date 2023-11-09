@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 425px;
+}
+
+.container p{
+    color: #F2F2F2;
+    font-family: Manrope;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 127%; /* 81.28px */
+    text-transform: uppercase;
+
+}
+
+.container text {
+    color: #F2F2F2;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+}
+
+.mainlinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.mainlinks button{
+    display: flex;
+    width: 200px;
+    padding: 16px 32px;
+    border-radius: 50px;
+    border: 2px solid  #F2F2F2;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mainlinks a:hover{
+    border-radius: 50px;
+    background: #ED6F55;
+}
+
+
+.mainlinks a:focus{  /*это когда нажали и остались на странице*/
+    border-radius: 50px;
+    background: #ED6F55;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+
+}
+
+.mainlinks a:active{
+    border-radius: 50px;
+    background:  #1A1A1A;
+}
