@@ -24,6 +24,12 @@ export default function Home() {
 
 
 
+    const score = 7 // от 0 до 10
+    const percentScore = (score * 10) + '%'
+
+
+    console.log(percentScore)
+
     return (
             <div className={styles.container}>
 
@@ -31,19 +37,22 @@ export default function Home() {
 
                 <div className={styles.skillcart}>
 
-                   <p>4/5</p>
+                   <p>{score}/10</p>
 
                     <div className={styles.skillcartInfo}>
                         <h2 >HTML</h2>
                         <Image src={imageHtml}/>
                     </div>
 
+
                     <div  className={styles.skillbarlock}>
-                        <span className={styles.skillbar}> </span>
+                        <div className={styles.skillbar}>
+                            <span className={styles.skillbarout} style={{width: percentScore}}> </span>
+                        </div>
                     </div>
 
-                </div>
 
+                </div>
         </div>
     )
 }
